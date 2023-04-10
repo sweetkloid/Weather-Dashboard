@@ -4,7 +4,7 @@ var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
 
 var cityName='New York';
 var limit='1'
-var apiKey='5f99878c7d7942b9db34be2b07a2e55c';
+var apiKey='';
 
 fetch(weatherUrl)
 .then(function(response){
