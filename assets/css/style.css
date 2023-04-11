@@ -23,13 +23,15 @@ h1{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 35px;
-  padding:10px;
+  margin: 40px;
+  padding:15px;
   border: 2px solid black;
-  background-color: darkblue;
+  background-color: rgb(72, 72, 223);
   color:aliceblue
 }
-
+.current-box, .five-day-container{
+  display: none;
+}
 img.image{
   width: 10%!important;
 }
